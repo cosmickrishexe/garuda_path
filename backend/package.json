@@ -1,0 +1,43 @@
+{
+  "name": "garuda-path-backend",
+  "version": "1.0.0",
+  "description": "Garuda Path - AI Smart Mobility & Adaptive Fleet Logistics Backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test dist/tests/*.js"
+  },
+  "keywords": [
+    "cvrp",
+    "smart-mobility",
+    "gemini",
+    "supabase",
+    "route-optimization",
+    "fleet-management"
+  ],
+  "author": "Team Garuda",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.49.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^20.17.19",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
