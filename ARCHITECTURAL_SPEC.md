@@ -532,7 +532,7 @@ SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
 
 ### Frontend (`frontend/.env` & `frontend/.env.example`)
 ```bash
-VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_BASE_URL=https://garuda-pathbackend.vercel.app/api
 
 # Mapbox Public Access Token
 VITE_MAPBOX_TOKEN=your_mapbox_public_token_here

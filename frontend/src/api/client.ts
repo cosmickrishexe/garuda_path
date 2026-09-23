@@ -8,7 +8,7 @@ import {
   VehicleRoutePlan 
 } from '../types';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://garuda-pathbackend.vercel.app/api';
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
